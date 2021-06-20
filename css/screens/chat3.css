@@ -1,0 +1,48 @@
+.unknown {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-color: #040018;
+  position: fixed;
+  top: 100px;
+  padding: 20px;
+}
+.unknown-info {
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgb(24, 20, 49);
+}
+.unknown-info i {
+  color: var(--yellow);
+}
+.unknown-choice {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  width: 100%;
+}
+.unknown-divider {
+  background-color: rgb(24, 20, 49);
+  height: 20px;
+  width: 1.5px;
+  margin: 0px 75px;
+}
+.unknown-ban i {
+  color: rgb(148, 62, 62);
+}
+.unknown-add i {
+  color: rgb(69, 62, 121);
+}
+.main-chat3 {
+  margin-top: 280px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

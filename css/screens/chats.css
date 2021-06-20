@@ -1,0 +1,9 @@
+.chats-nav .nav__btn:nth-of-type(2) i {
+  color: white;
+}
+.main-screen .user-component {
+  border-bottom: 1px solid #1a1530;
+}
+.main-screen a:last-of-type .user-component {
+  border-bottom: none;
+}

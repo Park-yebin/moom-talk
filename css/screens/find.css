@@ -1,0 +1,125 @@
+.recommended-friends {
+  border-top: var(--main-border);
+  border-bottom: var(--main-border);
+  padding: 25px 0px;
+  margin: 25px 0px;
+}
+.recommended-friends__title {
+  font-size: 14px;
+  color: var(--gray);
+}
+.recommended-friends span {
+  display: block;
+  margin: 100px 0px;
+  text-align: center;
+  font-size: 18px;
+  color: rgba(214, 213, 213, 0.781);
+}
+.open-chat {
+  border-bottom: var(--main-border);
+  padding-bottom: 15px;
+}
+.open-chat__header {
+  display: flex;
+  justify-content: space-between;
+  opacity: 0.8;
+  margin-bottom: 25px;
+  color: var(--gray);
+}
+.open-chat__header span {
+  opacity: 0.6;
+}
+.open-chat__post {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.open-post {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-block: 10px;
+}
+.open-post__title {
+  font-weight: 600;
+  margin-bottom: 7px;
+  color: white;
+}
+.open-post__hashtags {
+  text-transform: uppercase;
+  opacity: 0.6;
+  color: rgba(214, 213, 213, 0.781);
+}
+.open-post__members {
+  margin-top: 7px;
+  display: flex;
+  align-items: center;
+}
+.open-post__members img {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+.open-post__member-count {
+  opacity: 0.5;
+  font-size: 14px;
+  color: var(--gray);
+}
+.open-post__members .divider {
+  width: 2px;
+  height: 10px;
+  margin: 0 5px;
+  background-color: var(--gray);
+}
+.open-post__member-status {
+  color: var(--yellow);
+}
+.open-post__photo {
+  height: 100px;
+  width: 100px;
+  border-radius: 10px;
+  position: relative;
+}
+.open-post__photo img {
+  height: 100px;
+  width: 100px;
+  border-radius: 10px;
+}
+.open-post__heart-count {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 5px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  font-size: 12px;
+}
+.open-post__heart-count span {
+  margin-left: 3px;
+}
+
+@keyframes heartBeat {
+  0% {
+    transform: none;
+  }
+  50% {
+    color: rgb(255, 0, 76);
+    transform: scale(1.2);
+    background-color: transparent;
+  }
+  100% {
+    transform: none;
+  }
+}
+.open-post__heart-count:hover {
+  animation: heartBeat 2s linear infinite;
+}
+.find-nav .nav__btn:nth-of-type(3) i {
+  color: white;
+}

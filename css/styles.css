@@ -1,0 +1,30 @@
+@import "reset.css";
+@import "variable.css";
+/*Components*/
+@import "components/status-bar.css";
+@import "components/nav-bar.css";
+@import "components/screen-header.css";
+@import "components/alt-screen-header.css";
+@import "components/user-component.css";
+@import "components/badge.css";
+@import "components/point.css";
+@import "components/icon-row.css";
+@import "components/no-mobile.css";
+/*Screens*/
+@import "screens/login.css";
+@import "screens/friends.css";
+@import "screens/find.css";
+@import "screens/more.css";
+@import "screens/settings.css";
+@import "screens/chat.css";
+@import "screens/chats.css";
+@import "screens/chat3.css";
+@import "screens/chat2.css";
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  height: 1000vh;
+  background-color: var(--navy);
+}
+.main-screen {
+  padding: 0px var(--horizontal-space);
+}

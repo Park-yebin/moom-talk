@@ -1,0 +1,134 @@
+#friends-display-link {
+  text-align: center;
+  display: block;
+  background-color: #1c1736;
+  padding: 15px 0px;
+  font-size: 16px;
+  margin-bottom: 5px;
+  margin-top: -15px;
+  color: white;
+}
+#friends-display-link i {
+  color: var(--gray);
+  padding: 0px 10px;
+}
+.friends-screen {
+  padding: 0px var(--horizontal-space);
+}
+.friends-screen__channel {
+  margin-top: 25px;
+  border-top: var(--main-border);
+  padding-top: 15px;
+}
+.friends-screen__channel-header {
+  display: flex;
+  justify-content: space-between;
+  opacity: 0.5;
+  margin-bottom: 15px;
+  color: var(--gray);
+}
+.friends-screen__list {
+  margin-top: 20px;
+  border-top: var(--main-border);
+  padding-top: 15px;
+}
+.friends-screen__list-header {
+  display: flex;
+  justify-content: space-between;
+  opacity: 0.5;
+  margin-bottom: 15px;
+  color: var(--gray);
+}
+.add-friends {
+  color: rgba(214, 213, 213, 0.781);
+  text-align: center;
+  margin-block: 80px;
+}
+.user-component__imgs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  margin-right: 15px;
+}
+.user-component__img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.user-component__img:first-of-type {
+  margin-block: 3px;
+}
+.user-component__img-each {
+  width: 27px;
+  height: 27px;
+  border-radius: 10px;
+}
+.user-component__img:first-of-type .user-component__img-each:first-of-type {
+  background-color: rgb(98, 85, 170);
+  margin-right: 3px;
+}
+.user-component__img:first-of-type .user-component__img-each:nth-of-type(2) {
+  background-color: rgb(182, 181, 181);
+}
+.user-component__img:nth-of-type(2) .user-component__img-each:first-of-type {
+  background-color: rgb(154, 155, 81);
+  margin-right: 3px;
+}
+.user-component__img:nth-of-type(2) .user-component__img-each:nth-of-type(2) {
+  background-color: rgb(76, 60, 104);
+}
+.moon-talk {
+  background-color: rgb(33, 30, 59);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.eclipse-expedition {
+  background-color: rgb(51, 51, 31);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@keyframes hideSplashScreen {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+@keyframes iconChange {
+  from {
+    color: rgb(143, 142, 142);
+  }
+  to {
+    color: white;
+  }
+}
+#splash-screen {
+  background-color: var(--navy);
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  font-size: 128px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: hideSplashScreen 0.4s ease-in-out forwards;
+  animation-delay: 2s;
+}
+#splash-screen i {
+  color: white;
+  animation: iconChange 1.2s ease-in-out;
+}
+.friends-nav .nav__btn:first-of-type i {
+  color: white;
+}
