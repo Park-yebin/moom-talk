@@ -1,6 +1,6 @@
 #chat-screen {
   background-color: var(--navy);
-  height: 500vh;
+  height: 100vh;
 }
 #chat-screen .alt-header {
   position: fixed;

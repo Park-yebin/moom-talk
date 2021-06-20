@@ -1,5 +1,5 @@
 .unknown {
-  width: 100%;
+  width: 95%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -9,6 +9,7 @@
   position: fixed;
   top: 100px;
   padding: 20px;
+  z-index: 4;
 }
 .unknown-info {
   margin-bottom: 20px;

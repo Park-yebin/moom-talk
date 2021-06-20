@@ -22,7 +22,7 @@
 @import "screens/chat2.css";
 body {
   font-family: "Changa", sans-serif;
-  height: 1000vh;
+  height: 135vh;
   background-color: var(--navy);
 }
 .main-screen {

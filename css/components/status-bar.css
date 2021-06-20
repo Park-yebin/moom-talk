@@ -7,6 +7,8 @@
   padding: 5px 3px;
   box-sizing: border-box;
   color: white;
+  z-index: 2;
+  background-color: var(--navy);
 }
 .status-bar__column {
   width: 33%;

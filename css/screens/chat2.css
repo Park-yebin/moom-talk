@@ -3,30 +3,34 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 90%;
 }
 .main-chat2 .message__bubble {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 60%;
+}
+.message-row__img-if {
+  background-color: rgb(51, 51, 31);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
   justify-content: center;
+  color: white;
 }
 .main-chat2 button {
   margin-top: 10px;
-  padding: 10px 30px;
+  padding: 10px;
+  width: 60%;
   color: white;
   background-color: rgb(98, 85, 170);
   border: none;
   border-radius: 10px;
 }
-.main-chat2 .message-row__img {
-  width: 40%;
-}
-.main-chat2 .message__info {
-  width: 60%;
-}
 .main-chat2 .message-row:nth-of-type(3) {
-  padding-left: 25%;
+  padding-left: 120px;
   animation: fadeInLeft 1s linear;
   animation-delay: 0.5s;
 }

@@ -4,6 +4,8 @@
   align-items: center;
   padding: var(--horizontal-space);
   margin: 15px 0px;
+  background-color: var(--navy);
+  z-index: 4;
 }
 .alt-header__title {
   font-size: 28px;
@@ -24,7 +26,7 @@
   margin-left: 20px;
 }
 .alt-header__column {
-  width: 33%;
+  width: 30%;
 }
 .settings-header {
   color: white;
