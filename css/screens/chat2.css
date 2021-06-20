@@ -5,7 +5,21 @@
   align-items: center;
   width: 90%;
 }
-.message-row__img {
+.main-chat2 .message__bubble {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.main-chat2 button {
+  margin-top: 10px;
+  padding: 10px 30px;
+  color: white;
+  background-color: rgb(98, 85, 170);
+  border: none;
+  border-radius: 10px;
+}
+.main-chat2 .message-row__img {
   width: 40%;
 }
 .main-chat2 .message__info {
